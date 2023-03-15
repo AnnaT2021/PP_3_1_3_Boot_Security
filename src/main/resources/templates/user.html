@@ -28,7 +28,7 @@
             <td th:text="${user.roleToString()}"></td>
         </tr>
     </table>
-   <p> Вернуться на <a href="/index">главную страницу</a></p>
+   <p> Вернуться на <a href="/">главную страницу</a></p>
   <br/><br/>
    <form th:method="POST" th:action="@{/logout}">
     <input type="submit" value="Logout!"/>
